@@ -80,7 +80,10 @@ WebView Page resource error:
       children: [
         Expanded(child: SafeArea(child: WebViewWidget(controller: controller))),
         isLoading
-            ? const Center(child: CircularProgressIndicator(color: Colors.orange,))
+            ? const Center(
+                child: CircularProgressIndicator(
+                color: Colors.orange,
+              ))
             : const SizedBox(),
       ],
     ));
