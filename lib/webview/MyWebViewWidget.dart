@@ -62,7 +62,7 @@ WebView Page resource error:
           ''');
       },
     ));
-    controller.loadRequest(Uri.parse("https://absoluit.com"));
+    controller.loadRequest(Uri.parse("https://dynamicxperts.com/"));
 
     if (controller.platform is AndroidWebViewController) {
       AndroidWebViewController.enableDebugging(true);
