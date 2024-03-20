@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_playground_project/color_schemes.dart';
+import 'package:flutter_playground_project/exercises/login_register.dart';
 import 'package:flutter_playground_project/splash/splash.dart';
 
 Future<void> main() async{
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorScheme: darkColorScheme
       ),
-      home: const SplashWidget(),
+      home: const LogInRegister(),
     );
   }
 }
